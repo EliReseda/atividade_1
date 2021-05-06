@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<center>		
+		<center>
+		<table>
+		<tr>
+			<th>
+				<h1>Reserva Hotel-IFSP</h1>
+				<br><br>
+					
+	<form action="">
+		<p>
+			<label>
+			Nome Completo: <input type="text" name="nome completo" placeholder="Digite seu nome completo">		
+		     </label>
+		</p>
+		<p>
+			<label>
+			Email: <input type="email" name="email">		
+		    </label>
+		</p>
+		<p>	
+			<label>
+			Repita o email: <input type="email" name="email">
+			</label>
+		</p>
+		<p>
+			<label>
+			Estado de origem: <select name="estados" id="estados">
+				<option value=""></option>
+				<option value="acre"> Acre (AC)</option>
+				<option value="alagoas"> Alagoas (AL)</option>
+				<option value="amapá"> Amapá (AP)</option>
+				<option value="amazonas"> Amazonas (AM)</option>
+				<option value="bahia"> Bahia (BA)</option>
+				<option value="ceara"> Ceará (CE)</option>
+				<option value="distrito federal"> Distrito Federal (DF)</option>
+				<option value="espirito Santos"> Espirito santos (ES)</option>
+				<option value="goias"> Goiás (GO)</option>
+				<option value="maranhao"> Maranhão (MA)</option>
+				<option value="mato grosso"> Mato Grosso (MT)</option>
+				<option value="mato grosso do sul"> Mato Grosso do Sul (MS)</option>
+				<option value="minas gerais"> Minas Gerais (MG)</option>
+				<option value="para"> Pará (PA)</option>
+				<option value="paraiba"> Paraíba (PR)</option>
+				<option value="paraná"> Paraná (PR)</option>
+				<option value="pernambuco"> Pernambuco (PE)</option>
+				<option value="piauí"> Piauí (PI)</option>
+				<option value="rio de janeiro"> Rio de Janeiro (RJ)</option>
+				<option value="rio grande do norte"> Rio Grande do Norte (RN)</option>
+				<option value="rio grande do sul"> Rio Grande do Sul (RS)</option>
+				<option value="rondonia"> Rondônia (RO)</option>
+				<option value="roraima"> Roraima (RR)</option>
+				<option value="santa catarina"> Santa Catarina (SC)</option>
+				<option value="sao Paulo"> São Paulo (SP)</option>
+				<option value="sergipe"> Sergipe (SE)</option>
+				<option value="tocantins"> Tocantins (TO)</option>
+			</select>		
+		     </label>
+		</p>
+
+		<p>
+			 <label>
+			Data da chegada: <input type="date" name="data">		
+		     </label>
+		</p>
+
+		<p>
+			<label>
+				Número de noites (quartos são R$ 99,00 por noite): <input type="number" name="numero" min="1" max="30"> (minimo 1, máximo 30).		
+		     </label>
+		</p>
+		<p>
+			<label>
+				Número de noites (adicional de por convidado R$ 10,00 por noite): <input type="number" name="numero" min="1" max="4"> (minimo 1, máximo 4).		
+		     </label>
+		</p>
+		<p>
+			<label>
+			Total estimado: R$ 99,00		
+		     </label>
+		</p>
+		<p>
+			<label>
+			Código promocional: <input type="number" name="numero">
+		
+		     </label>
+		</p>
+		<p>
+			<center>
+			<input type="submit" value="Fazer Reserva">
+		    </center>
+		</p>
+</form>
+</th>
+</tr>
+
+</table>
+</center>
+</body>
+</html>
