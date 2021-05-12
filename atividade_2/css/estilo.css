@@ -1,0 +1,13 @@
+body{
+	background: white;
+}
+h1{
+	font-family: helvetica,"Trebuchet MS", sans-serif;
+	text-transform: uppercase;
+	color:red;	
+}
+
+p{
+	margin-left: 5px;
+
+}
