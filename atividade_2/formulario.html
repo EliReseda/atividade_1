@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Formulario</title>
@@ -8,6 +8,61 @@
 <body>
 
 	<center> <a href="index.html"> Home </a> | <a href="informacao.html" target="_blank">Informação </a>  |  <a href="formulario.html" target="_blank"> Formulário</a></center>
+
+<h2>Faça  seu cadastro para receber mais informações.</h2>
+<form>
+<p><label>Nome Completo: <input type="text" name="nome completo" placeholder="Digite seu nome completo"></label></p>
+<p><label>Data de Nascimento:<input type="date" name="data"></label></p>
+<p><label>Endereço:<input type="text" name="endereco" placeholder="Endereço obrigatório"></label></p>
+<p><label>Estado: <select name="estados" id="estados">
+				<option value=""></option>
+				<option value="acre">AC</option>
+				<option value="alagoas">AL</option>
+				<option value="amapá">AP</option>
+				<option value="amazonas">AM</option>
+				<option value="bahia">BA</option>
+				<option value="ceara">CE</option>
+				<option value="distrito federal">DF</option>
+				<option value="espirito Santos">ES</option>
+				<option value="goias">GO</option>
+				<option value="maranhao">MA</option>
+				<option value="mato grosso">MT</option>
+				<option value="mato grosso do sul">MS</option>
+				<option value="minas gerais">MG</option>
+				<option value="para">PA</option>
+				<option value="paraiba">PR</option>
+				<option value="paraná">PR</option>
+				<option value="pernambuco">PE</option>
+				<option value="piauí">PI</option>
+				<option value="rio de janeiro">RJ</option>
+				<option value="rio grande do norte">RN</option>
+				<option value="rio grande do sul">RS</option>
+				<option value="rondonia">RO</option>
+				<option value="roraima">RR</option>
+				<option value="santa catarina">SC</option>
+				<option value="sao Paulo" selected="Sao Paulo">SP</option>
+				<option value="sergipe">SE</option>
+				<option value="tocantins">TO</option>
+			</select>
+			</label>
+		</p>		
+<p><label>Cidade:<input type="text" name="cidade"></label></p>
+<p><label>Email:<input type="email" name="email"></label></p>
+<p><label>Telefone:<input type="text" name="telefone"></label></p>
+
+<form action="">
+<fieldset>
+	<legend>Area de interesse</legend>
+	<label><input type="checkbox" name="interesse" value="Saude">Saúde</label><br/>
+	<label><input type="checkbox" name="interesse" value="Cultura">Cultura</label><br/>
+	<label><input type="checkbox" name="interesse" value="jogos">Jogos</label><br/>
+	<label><input type="checkbox" name="interesse" value="tecnologia">Tecnologia</label><br/>	
+</fieldset>
+</form><p>
+<label>Usuário:</label> <input type="text" name="Usuario" placeholder="Campo onrigatório."></P>
+<p><label>Senha:</label><input type="password" name="senha" "></p>
+<input type="submit" value="Enviar">
+</form>
 	
 
 </body>

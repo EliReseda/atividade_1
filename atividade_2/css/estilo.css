@@ -1,13 +1,26 @@
 body{
-	background: white;
+	background:#FA8072;
 }
 h1{
 	font-family: helvetica,"Trebuchet MS", sans-serif;
 	text-transform: uppercase;
-	color:red;	
+	color:#800000;	
+}
+h2{
+	font-family: helvetica,"Trebuchet MS", sans-serif;
+	text-transform: uppercase;
+	color:	#8B0000;	
+}
+h3{
+	font-family: helvetica,"Trebuchet MS", sans-serif;
+	text-transform: uppercase;
+	color:#A52A2A;	
 }
 
 p{
 	margin-left: 5px;
 
+}
+li{
+	text-align: left;
 }
